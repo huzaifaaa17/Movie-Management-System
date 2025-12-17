@@ -1,0 +1,19 @@
+{
+  "name": "neonflix-proxy",
+  "version": "1.0.0",
+  "description": "Proxy backend for NeonFlix",
+  "main": "proxy_backend.js",
+  "scripts": {
+    "start": "node proxy_backend.js",
+    "dev": "nodemon proxy_backend.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

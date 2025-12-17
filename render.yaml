@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: neonflix-huzaifa23
+    env:  node
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: npm install
+    startCommand: node proxy_backend.js
+    envVars:
+      - key: NODE_ENV
+        value: production
